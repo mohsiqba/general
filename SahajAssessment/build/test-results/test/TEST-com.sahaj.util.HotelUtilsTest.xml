@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sahaj.util.HotelUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-02-05T05:59:10" hostname="IBM-MIQBAL-BL" time="0.0">
+  <properties/>
+  <testcase name="testGetMatchAtGroupIfExists" classname="com.sahaj.util.HotelUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
