@@ -1,0 +1,47 @@
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\bin\default\jclSC180\vm.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\se-service.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\math.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmorb.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmorbapi.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmcfw.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmpkcs.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmcertpathfw.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmjgssfw.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmjssefw.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmsaslfw.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmjcefw.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmjgssprovider.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmjsseprovider2.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmcertpathprovider.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\xmldsigfw.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\xml.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\charsets.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\resources.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\rt.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\dataaccess.jar
+Primordial,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ibmgpu.jar
+Primordial,Java,binaryDir,C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8\jre\lib\ext
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\annotations-api.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\ant.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina-ant.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina-ha.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina-tribes.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\ecj-4.2.2.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\el-api.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\jasper-el.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\jasper.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\jsp-api.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\servlet-api.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-api.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-coyote.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-dbcp.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-i18n-es.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-i18n-fr.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-i18n-ja.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-jdbc.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-juli.jar
+Extension,Java,jarFile,C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-util.jar
+Extension,Java,jarFile,C:\Users\mohsiqba\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.13\7fcf30c25b8f4a9379b9dad0d3f487b25272c026\slf4j-api-1.7.13.jar
+Application,Java,binaryDir,C:\eclipse_workspace\demo-java-gradle-master\gradle-java_staging
+Application,Java,sourceDir,C:\eclipse_workspace\demo-java-gradle-master\build\classes\main

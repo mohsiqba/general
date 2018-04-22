@@ -1,0 +1,6 @@
+login_file IBM-MIQBAL-BL.fiberlink.com C:\Users\mohsiqba\.ounce\ouncecli.token -acceptssl
+oa "C:\eclipse_workspace\demo-java-gradle-master\gradle-java.paf"
+scan
+
+
+exit

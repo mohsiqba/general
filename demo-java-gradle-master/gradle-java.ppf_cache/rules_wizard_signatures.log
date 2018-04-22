@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api_info>
+	<package name="java.lang">
+		<class name="Object" uniqueID="java.lang.Object">
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;():void">
+				<signature>java.lang.Object.&lt;init&gt;():void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="clone" uniqueID="clone():java.lang.Object">
+				<signature>java.lang.Object.clone():java.lang.Object</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="equals" uniqueID="equals(java.lang.Object):boolean">
+				<signature>java.lang.Object.equals(java.lang.Object):boolean</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="finalize" uniqueID="finalize():void">
+				<signature>java.lang.Object.finalize():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="getClass" uniqueID="getClass():java.lang.Class">
+				<signature>java.lang.Object.getClass():java.lang.Class</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="hashCode" uniqueID="hashCode():int">
+				<signature>java.lang.Object.hashCode():int</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="newInstancePrototype" uniqueID="newInstancePrototype(java.lang.Class):java.lang.Object">
+				<signature>java.lang.Object.newInstancePrototype(java.lang.Class):java.lang.Object</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="notify" uniqueID="notify():void">
+				<signature>java.lang.Object.notify():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="notifyAll" uniqueID="notifyAll():void">
+				<signature>java.lang.Object.notifyAll():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="toString" uniqueID="toString():java.lang.String">
+				<signature>java.lang.Object.toString():java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="wait" uniqueID="wait():void">
+				<signature>java.lang.Object.wait():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="wait" uniqueID="wait(long):void">
+				<signature>java.lang.Object.wait(long):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="wait" uniqueID="wait(long;int):void">
+				<signature>java.lang.Object.wait(long;int):void</signature>
+			</method>
+		</class>
+		<class name="AutoCloseable" uniqueID="java.lang.AutoCloseable">
+			<method accessibility="Public" methodKind="Member" name="close" uniqueID="close():void">
+				<signature>java.lang.AutoCloseable.close():void</signature>
+			</method>
+		</class>
+		<class name="Enum" uniqueID="java.lang.Enum">
+			<method accessibility="Public" methodKind="Static" name="valueOf" uniqueID="valueOf(java.lang.Class;java.lang.String):java.lang.Enum">
+				<signature>java.lang.Enum.valueOf(java.lang.Class;java.lang.String):java.lang.Enum</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.lang.String;int):void">
+				<signature>java.lang.Enum.&lt;init&gt;(java.lang.String;int):void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="clone" uniqueID="clone():java.lang.Object">
+				<signature>java.lang.Enum.clone():java.lang.Object</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="compareTo" uniqueID="compareTo(java.lang.Enum):int">
+				<signature>java.lang.Enum.compareTo(java.lang.Enum):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="compareTo" uniqueID="compareTo(java.lang.Object):int">
+				<signature>java.lang.Enum.compareTo(java.lang.Object):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="equals" uniqueID="equals(java.lang.Object):boolean">
+				<signature>java.lang.Enum.equals(java.lang.Object):boolean</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="finalize" uniqueID="finalize():void">
+				<signature>java.lang.Enum.finalize():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="getDeclaringClass" uniqueID="getDeclaringClass():java.lang.Class">
+				<signature>java.lang.Enum.getDeclaringClass():java.lang.Class</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="hashCode" uniqueID="hashCode():int">
+				<signature>java.lang.Enum.hashCode():int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="name" uniqueID="name():java.lang.String">
+				<signature>java.lang.Enum.name():java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="ordinal" uniqueID="ordinal():int">
+				<signature>java.lang.Enum.ordinal():int</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="readObject" uniqueID="readObject(java.io.ObjectInputStream):void">
+				<signature>java.lang.Enum.readObject(java.io.ObjectInputStream):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="readObjectNoData" uniqueID="readObjectNoData():void">
+				<signature>java.lang.Enum.readObjectNoData():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="toString" uniqueID="toString():java.lang.String">
+				<signature>java.lang.Enum.toString():java.lang.String</signature>
+			</method>
+		</class>
+		<class name="Appendable" uniqueID="java.lang.Appendable">
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(char):java.lang.Appendable">
+				<signature>java.lang.Appendable.append(char):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence):java.lang.Appendable">
+				<signature>java.lang.Appendable.append(java.lang.CharSequence):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence;int;int):java.lang.Appendable">
+				<signature>java.lang.Appendable.append(java.lang.CharSequence;int;int):java.lang.Appendable</signature>
+			</method>
+		</class>
+		<class name="CharSequence" uniqueID="java.lang.CharSequence">
+			<method accessibility="Public" methodKind="Member" name="charAt" uniqueID="charAt(int):char">
+				<signature>java.lang.CharSequence.charAt(int):char</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="chars" uniqueID="chars():java.util.stream.IntStream">
+				<signature>java.lang.CharSequence.chars():java.util.stream.IntStream</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="codePoints" uniqueID="codePoints():java.util.stream.IntStream">
+				<signature>java.lang.CharSequence.codePoints():java.util.stream.IntStream</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="lambda$chars$1" uniqueID="lambda$chars$1():java.util.Spliterator$OfInt">
+				<signature>java.lang.CharSequence.lambda$chars$1():java.util.Spliterator$OfInt</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="lambda$codePoints$2" uniqueID="lambda$codePoints$2():java.util.Spliterator$OfInt">
+				<signature>java.lang.CharSequence.lambda$codePoints$2():java.util.Spliterator$OfInt</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="length" uniqueID="length():int">
+				<signature>java.lang.CharSequence.length():int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="subSequence" uniqueID="subSequence(int;int):java.lang.CharSequence">
+				<signature>java.lang.CharSequence.subSequence(int;int):java.lang.CharSequence</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="toString" uniqueID="toString():java.lang.String">
+				<signature>java.lang.CharSequence.toString():java.lang.String</signature>
+			</method>
+		</class>
+		<class name="Comparable" uniqueID="java.lang.Comparable">
+			<method accessibility="Public" methodKind="Member" name="compareTo" uniqueID="compareTo(java.lang.Object):int">
+				<signature>java.lang.Comparable.compareTo(java.lang.Object):int</signature>
+			</method>
+		</class>
+		<class name="StringBuilder" uniqueID="java.lang.StringBuilder">
+			<method accessibility="Protected" methodKind="Static" name="&lt;clinit&gt;" uniqueID="&lt;clinit&gt;():void">
+				<signature>java.lang.StringBuilder.&lt;clinit&gt;():void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Static" name="initFromSystemProperties" uniqueID="initFromSystemProperties(java.util.Properties):void">
+				<signature>java.lang.StringBuilder.initFromSystemProperties(java.util.Properties):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;():void">
+				<signature>java.lang.StringBuilder.&lt;init&gt;():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(int):void">
+				<signature>java.lang.StringBuilder.&lt;init&gt;(int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.lang.CharSequence):void">
+				<signature>java.lang.StringBuilder.&lt;init&gt;(java.lang.CharSequence):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.lang.String):void">
+				<signature>java.lang.StringBuilder.&lt;init&gt;(java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(boolean):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(boolean):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(char):java.lang.Appendable">
+				<signature>java.lang.StringBuilder.append(char):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(char):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(char):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(char[]):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(char[]):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(char[];int;int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(char[];int;int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(double):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(double):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(float):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(float):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence):java.lang.Appendable">
+				<signature>java.lang.StringBuilder.append(java.lang.CharSequence):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(java.lang.CharSequence):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence;int;int):java.lang.Appendable">
+				<signature>java.lang.StringBuilder.append(java.lang.CharSequence;int;int):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence;int;int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(java.lang.CharSequence;int;int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.Object):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(java.lang.Object):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.String):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(java.lang.String):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.StringBuffer):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(java.lang.StringBuffer):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(long):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.append(long):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="appendCodePoint" uniqueID="appendCodePoint(int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.appendCodePoint(int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="capacity" uniqueID="capacity():int">
+				<signature>java.lang.StringBuilder.capacity():int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="charAt" uniqueID="charAt(int):char">
+				<signature>java.lang.StringBuilder.charAt(int):char</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="codePointAt" uniqueID="codePointAt(int):int">
+				<signature>java.lang.StringBuilder.codePointAt(int):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="codePointBefore" uniqueID="codePointBefore(int):int">
+				<signature>java.lang.StringBuilder.codePointBefore(int):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="codePointCount" uniqueID="codePointCount(int;int):int">
+				<signature>java.lang.StringBuilder.codePointCount(int;int):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="delete" uniqueID="delete(int;int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.delete(int;int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="deleteCharAt" uniqueID="deleteCharAt(int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.deleteCharAt(int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="ensureCapacity" uniqueID="ensureCapacity(int):void">
+				<signature>java.lang.StringBuilder.ensureCapacity(int):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="ensureCapacityImpl" uniqueID="ensureCapacityImpl(int):void">
+				<signature>java.lang.StringBuilder.ensureCapacityImpl(int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="getChars" uniqueID="getChars(int;int;char[];int):void">
+				<signature>java.lang.StringBuilder.getChars(int;int;char[];int):void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="getValue" uniqueID="getValue():char[]">
+				<signature>java.lang.StringBuilder.getValue():char[]</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="indexOf" uniqueID="indexOf(java.lang.String):int">
+				<signature>java.lang.StringBuilder.indexOf(java.lang.String):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="indexOf" uniqueID="indexOf(java.lang.String;int):int">
+				<signature>java.lang.StringBuilder.indexOf(java.lang.String;int):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;boolean):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;boolean):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;char):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;char):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;char[]):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;char[]):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;char[];int;int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;char[];int;int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;double):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;double):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;float):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;float):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;java.lang.CharSequence):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;java.lang.CharSequence):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;java.lang.CharSequence;int;int):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;java.lang.CharSequence;int;int):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;java.lang.Object):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;java.lang.Object):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;java.lang.String):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;java.lang.String):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="insert" uniqueID="insert(int;long):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.insert(int;long):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="lastIndexOf" uniqueID="lastIndexOf(java.lang.String):int">
+				<signature>java.lang.StringBuilder.lastIndexOf(java.lang.String):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="lastIndexOf" uniqueID="lastIndexOf(java.lang.String;int):int">
+				<signature>java.lang.StringBuilder.lastIndexOf(java.lang.String;int):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="length" uniqueID="length():int">
+				<signature>java.lang.StringBuilder.length():int</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="move" uniqueID="move(int;int):void">
+				<signature>java.lang.StringBuilder.move(int;int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="offsetByCodePoints" uniqueID="offsetByCodePoints(int;int):int">
+				<signature>java.lang.StringBuilder.offsetByCodePoints(int;int):int</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="readObject" uniqueID="readObject(java.io.ObjectInputStream):void">
+				<signature>java.lang.StringBuilder.readObject(java.io.ObjectInputStream):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="replace" uniqueID="replace(int;int;java.lang.String):java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.replace(int;int;java.lang.String):java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="reverse" uniqueID="reverse():java.lang.StringBuilder">
+				<signature>java.lang.StringBuilder.reverse():java.lang.StringBuilder</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="setCharAt" uniqueID="setCharAt(int;char):void">
+				<signature>java.lang.StringBuilder.setCharAt(int;char):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="setLength" uniqueID="setLength(int):void">
+				<signature>java.lang.StringBuilder.setLength(int):void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="shareValue" uniqueID="shareValue():char[]">
+				<signature>java.lang.StringBuilder.shareValue():char[]</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="subSequence" uniqueID="subSequence(int;int):java.lang.CharSequence">
+				<signature>java.lang.StringBuilder.subSequence(int;int):java.lang.CharSequence</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="substring" uniqueID="substring(int):java.lang.String">
+				<signature>java.lang.StringBuilder.substring(int):java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="substring" uniqueID="substring(int;int):java.lang.String">
+				<signature>java.lang.StringBuilder.substring(int;int):java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="toString" uniqueID="toString():java.lang.String">
+				<signature>java.lang.StringBuilder.toString():java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="trimToSize" uniqueID="trimToSize():void">
+				<signature>java.lang.StringBuilder.trimToSize():void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="writeObject" uniqueID="writeObject(java.io.ObjectOutputStream):void">
+				<signature>java.lang.StringBuilder.writeObject(java.io.ObjectOutputStream):void</signature>
+			</method>
+		</class>
+		<class name="System" uniqueID="java.lang.System">
+			<method accessibility="Protected" methodKind="Static" name="&lt;clinit&gt;" uniqueID="&lt;clinit&gt;():void">
+				<signature>java.lang.System.&lt;clinit&gt;():void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Static" name="afterClinitInitialization" uniqueID="afterClinitInitialization():void">
+				<signature>java.lang.System.afterClinitInitialization():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="arraycopy" uniqueID="arraycopy(java.lang.Object;int;java.lang.Object;int;int):void">
+				<signature>java.lang.System.arraycopy(java.lang.Object;int;java.lang.Object;int;int):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="arraycopy" uniqueID="arraycopy(java.lang.Object[];int;java.lang.Object[];int;int):void">
+				<signature>java.lang.System.arraycopy(java.lang.Object[];int;java.lang.Object[];int;int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="clearProperty" uniqueID="clearProperty(java.lang.String):java.lang.String">
+				<signature>java.lang.System.clearProperty(java.lang.String):java.lang.String</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Static" name="completeInitialization" uniqueID="completeInitialization():void">
+				<signature>java.lang.System.completeInitialization():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="console" uniqueID="console():java.io.Console">
+				<signature>java.lang.System.console():java.io.Console</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="currentTimeMillis" uniqueID="currentTimeMillis():long">
+				<signature>java.lang.System.currentTimeMillis():long</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="ensureProperties" uniqueID="ensureProperties():void">
+				<signature>java.lang.System.ensureProperties():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="exit" uniqueID="exit(int):void">
+				<signature>java.lang.System.exit(int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="gc" uniqueID="gc():void">
+				<signature>java.lang.System.gc():void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Static" name="getCallerClass" uniqueID="getCallerClass():java.lang.Class">
+				<signature>java.lang.System.getCallerClass():java.lang.Class</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="getEncoding" uniqueID="getEncoding(int):java.lang.String">
+				<signature>java.lang.System.getEncoding(int):java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="getProperties" uniqueID="getProperties():java.util.Properties">
+				<signature>java.lang.System.getProperties():java.util.Properties</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="getProperty" uniqueID="getProperty(java.lang.String):java.lang.String">
+				<signature>java.lang.System.getProperty(java.lang.String):java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="getProperty" uniqueID="getProperty(java.lang.String;java.lang.String):java.lang.String">
+				<signature>java.lang.System.getProperty(java.lang.String;java.lang.String):java.lang.String</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="getPropertyList" uniqueID="getPropertyList():java.lang.String[]">
+				<signature>java.lang.System.getPropertyList():java.lang.String[]</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="getSecurityManager" uniqueID="getSecurityManager():java.lang.SecurityManager">
+				<signature>java.lang.System.getSecurityManager():java.lang.SecurityManager</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="getenv" uniqueID="getenv():java.util.Map">
+				<signature>java.lang.System.getenv():java.util.Map</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="getenv" uniqueID="getenv(java.lang.String):java.lang.String">
+				<signature>java.lang.System.getenv(java.lang.String):java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="identityHashCode" uniqueID="identityHashCode(java.lang.Object):int">
+				<signature>java.lang.System.identityHashCode(java.lang.Object):int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="inheritedChannel" uniqueID="inheritedChannel():java.nio.channels.Channel">
+				<signature>java.lang.System.inheritedChannel():java.nio.channels.Channel</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="initEncodings" uniqueID="initEncodings():void">
+				<signature>java.lang.System.initEncodings():void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Static" name="internalGetProperties" uniqueID="internalGetProperties():java.util.Properties">
+				<signature>java.lang.System.internalGetProperties():java.util.Properties</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="lineSeparator" uniqueID="lineSeparator():java.lang.String">
+				<signature>java.lang.System.lineSeparator():java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="load" uniqueID="load(java.lang.String):void">
+				<signature>java.lang.System.load(java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="loadLibrary" uniqueID="loadLibrary(java.lang.String):void">
+				<signature>java.lang.System.loadLibrary(java.lang.String):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="longMultiLeafArrayCopy" uniqueID="longMultiLeafArrayCopy(java.lang.Object;int;java.lang.Object;int;int;int;int):void">
+				<signature>java.lang.System.longMultiLeafArrayCopy(java.lang.Object;int;java.lang.Object;int;int;int;int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="mapLibraryName" uniqueID="mapLibraryName(java.lang.String):java.lang.String">
+				<signature>java.lang.System.mapLibraryName(java.lang.String):java.lang.String</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="multiLeafArrayCopy" uniqueID="multiLeafArrayCopy(java.lang.Object;int;java.lang.Object;int;int;int;int):void">
+				<signature>java.lang.System.multiLeafArrayCopy(java.lang.Object;int;java.lang.Object;int;int;int;int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="nanoTime" uniqueID="nanoTime():long">
+				<signature>java.lang.System.nanoTime():long</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="runFinalization" uniqueID="runFinalization():void">
+				<signature>java.lang.System.runFinalization():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="runFinalizersOnExit" uniqueID="runFinalizersOnExit(boolean):void">
+				<signature>java.lang.System.runFinalizersOnExit(boolean):void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Static" name="runInitializationHook" uniqueID="runInitializationHook(java.lang.String):void">
+				<signature>java.lang.System.runInitializationHook(java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="setErr" uniqueID="setErr(java.io.PrintStream):void">
+				<signature>java.lang.System.setErr(java.io.PrintStream):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="setFieldImpl" uniqueID="setFieldImpl(java.lang.String;java.lang.Object):void">
+				<signature>java.lang.System.setFieldImpl(java.lang.String;java.lang.Object):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="setIn" uniqueID="setIn(java.io.InputStream):void">
+				<signature>java.lang.System.setIn(java.io.InputStream):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="setOut" uniqueID="setOut(java.io.PrintStream):void">
+				<signature>java.lang.System.setOut(java.io.PrintStream):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="setProperties" uniqueID="setProperties(java.util.Properties):void">
+				<signature>java.lang.System.setProperties(java.util.Properties):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="setProperty" uniqueID="setProperty(java.lang.String;java.lang.String):java.lang.String">
+				<signature>java.lang.System.setProperty(java.lang.String;java.lang.String):java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="setSecurityManager" uniqueID="setSecurityManager(java.lang.SecurityManager):void">
+				<signature>java.lang.System.setSecurityManager(java.lang.SecurityManager):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="simpleMultiLeafArrayCopy" uniqueID="simpleMultiLeafArrayCopy(java.lang.Object;int;java.lang.Object;int;int;int;int):void">
+				<signature>java.lang.System.simpleMultiLeafArrayCopy(java.lang.Object;int;java.lang.Object;int;int;int;int):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;():void">
+				<signature>java.lang.System.&lt;init&gt;():void</signature>
+			</method>
+		</class>
+	</package>
+	<package name="com.petehouston.greet">
+		<class name="Greet" uniqueID="com.petehouston.greet.Greet">
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;():void">
+				<signature>com.petehouston.greet.Greet.&lt;init&gt;():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="bye" uniqueID="bye(java.lang.String):java.lang.String">
+				<signature>com.petehouston.greet.Greet.bye(java.lang.String):java.lang.String</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="hello" uniqueID="hello(java.lang.String):java.lang.String">
+				<signature>com.petehouston.greet.Greet.hello(java.lang.String):java.lang.String</signature>
+			</method>
+		</class>
+		<class name="Program" uniqueID="com.petehouston.greet.Program">
+			<method accessibility="Public" methodKind="Static" name="main" uniqueID="main(java.lang.String[]):void">
+				<signature>com.petehouston.greet.Program.main(java.lang.String[]):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;():void">
+				<signature>com.petehouston.greet.Program.&lt;init&gt;():void</signature>
+			</method>
+		</class>
+	</package>
+	<package name="java.io">
+		<class name="Closeable" uniqueID="java.io.Closeable">
+			<method accessibility="Public" methodKind="Member" name="close" uniqueID="close():void">
+				<signature>java.io.Closeable.close():void</signature>
+			</method>
+		</class>
+		<class name="Flushable" uniqueID="java.io.Flushable">
+			<method accessibility="Public" methodKind="Member" name="flush" uniqueID="flush():void">
+				<signature>java.io.Flushable.flush():void</signature>
+			</method>
+		</class>
+		<class name="OutputStream" uniqueID="java.io.OutputStream">
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;():void">
+				<signature>java.io.OutputStream.&lt;init&gt;():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="close" uniqueID="close():void">
+				<signature>java.io.OutputStream.close():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="flush" uniqueID="flush():void">
+				<signature>java.io.OutputStream.flush():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(byte[]):void">
+				<signature>java.io.OutputStream.write(byte[]):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(byte[];int;int):void">
+				<signature>java.io.OutputStream.write(byte[];int;int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(int):void">
+				<signature>java.io.OutputStream.write(int):void</signature>
+			</method>
+		</class>
+		<class name="FilterOutputStream" uniqueID="java.io.FilterOutputStream">
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.io.OutputStream):void">
+				<signature>java.io.FilterOutputStream.&lt;init&gt;(java.io.OutputStream):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="close" uniqueID="close():void">
+				<signature>java.io.FilterOutputStream.close():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="flush" uniqueID="flush():void">
+				<signature>java.io.FilterOutputStream.flush():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(byte[]):void">
+				<signature>java.io.FilterOutputStream.write(byte[]):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(byte[];int;int):void">
+				<signature>java.io.FilterOutputStream.write(byte[];int;int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(int):void">
+				<signature>java.io.FilterOutputStream.write(int):void</signature>
+			</method>
+		</class>
+		<class name="PrintStream" uniqueID="java.io.PrintStream">
+			<method accessibility="Protected" methodKind="Static" name="&lt;clinit&gt;" uniqueID="&lt;clinit&gt;():void">
+				<signature>java.io.PrintStream.&lt;clinit&gt;():void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="requireNonNull" uniqueID="requireNonNull(java.lang.Object;java.lang.String):java.lang.Object">
+				<signature>java.io.PrintStream.requireNonNull(java.lang.Object;java.lang.String):java.lang.Object</signature>
+			</method>
+			<method accessibility="Private" methodKind="Static" name="toCharset" uniqueID="toCharset(java.lang.String):java.nio.charset.Charset">
+				<signature>java.io.PrintStream.toCharset(java.lang.String):java.nio.charset.Charset</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(boolean;java.io.OutputStream):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(boolean;java.io.OutputStream):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(boolean;java.io.OutputStream;java.nio.charset.Charset):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(boolean;java.io.OutputStream;java.nio.charset.Charset):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(boolean;java.nio.charset.Charset;java.io.OutputStream):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(boolean;java.nio.charset.Charset;java.io.OutputStream):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.io.File):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(java.io.File):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.io.File;java.lang.String):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(java.io.File;java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.io.OutputStream):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(java.io.OutputStream):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.io.OutputStream;boolean):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(java.io.OutputStream;boolean):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.io.OutputStream;boolean;java.lang.String):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(java.io.OutputStream;boolean;java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.lang.String):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.lang.String;java.lang.String):void">
+				<signature>java.io.PrintStream.&lt;init&gt;(java.lang.String;java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(char):java.io.PrintStream">
+				<signature>java.io.PrintStream.append(char):java.io.PrintStream</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(char):java.lang.Appendable">
+				<signature>java.io.PrintStream.append(char):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence):java.io.PrintStream">
+				<signature>java.io.PrintStream.append(java.lang.CharSequence):java.io.PrintStream</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence):java.lang.Appendable">
+				<signature>java.io.PrintStream.append(java.lang.CharSequence):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence;int;int):java.io.PrintStream">
+				<signature>java.io.PrintStream.append(java.lang.CharSequence;int;int):java.io.PrintStream</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="append" uniqueID="append(java.lang.CharSequence;int;int):java.lang.Appendable">
+				<signature>java.io.PrintStream.append(java.lang.CharSequence;int;int):java.lang.Appendable</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="checkError" uniqueID="checkError():boolean">
+				<signature>java.io.PrintStream.checkError():boolean</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="clearError" uniqueID="clearError():void">
+				<signature>java.io.PrintStream.clearError():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="close" uniqueID="close():void">
+				<signature>java.io.PrintStream.close():void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="ensureOpen" uniqueID="ensureOpen():void">
+				<signature>java.io.PrintStream.ensureOpen():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="flush" uniqueID="flush():void">
+				<signature>java.io.PrintStream.flush():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="format" uniqueID="format(java.lang.String;java.lang.Object[]):java.io.PrintStream">
+				<signature>java.io.PrintStream.format(java.lang.String;java.lang.Object[]):java.io.PrintStream</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="format" uniqueID="format(java.util.Locale;java.lang.String;java.lang.Object[]):java.io.PrintStream">
+				<signature>java.io.PrintStream.format(java.util.Locale;java.lang.String;java.lang.Object[]):java.io.PrintStream</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="newLine" uniqueID="newLine():void">
+				<signature>java.io.PrintStream.newLine():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(boolean):void">
+				<signature>java.io.PrintStream.print(boolean):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(char):void">
+				<signature>java.io.PrintStream.print(char):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(char[]):void">
+				<signature>java.io.PrintStream.print(char[]):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(double):void">
+				<signature>java.io.PrintStream.print(double):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(float):void">
+				<signature>java.io.PrintStream.print(float):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(int):void">
+				<signature>java.io.PrintStream.print(int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(java.lang.Object):void">
+				<signature>java.io.PrintStream.print(java.lang.Object):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(java.lang.String):void">
+				<signature>java.io.PrintStream.print(java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="print" uniqueID="print(long):void">
+				<signature>java.io.PrintStream.print(long):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="printf" uniqueID="printf(java.lang.String;java.lang.Object[]):java.io.PrintStream">
+				<signature>java.io.PrintStream.printf(java.lang.String;java.lang.Object[]):java.io.PrintStream</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="printf" uniqueID="printf(java.util.Locale;java.lang.String;java.lang.Object[]):java.io.PrintStream">
+				<signature>java.io.PrintStream.printf(java.util.Locale;java.lang.String;java.lang.Object[]):java.io.PrintStream</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println():void">
+				<signature>java.io.PrintStream.println():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(boolean):void">
+				<signature>java.io.PrintStream.println(boolean):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(char):void">
+				<signature>java.io.PrintStream.println(char):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(char[]):void">
+				<signature>java.io.PrintStream.println(char[]):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(double):void">
+				<signature>java.io.PrintStream.println(double):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(float):void">
+				<signature>java.io.PrintStream.println(float):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(int):void">
+				<signature>java.io.PrintStream.println(int):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(java.lang.Object):void">
+				<signature>java.io.PrintStream.println(java.lang.Object):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(java.lang.String):void">
+				<signature>java.io.PrintStream.println(java.lang.String):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="println" uniqueID="println(long):void">
+				<signature>java.io.PrintStream.println(long):void</signature>
+			</method>
+			<method accessibility="Protected" methodKind="Member" name="setError" uniqueID="setError():void">
+				<signature>java.io.PrintStream.setError():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(byte[];int;int):void">
+				<signature>java.io.PrintStream.write(byte[];int;int):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="write" uniqueID="write(char[]):void">
+				<signature>java.io.PrintStream.write(char[]):void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="write" uniqueID="write(int):void">
+				<signature>java.io.PrintStream.write(int):void</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="write" uniqueID="write(java.lang.String):void">
+				<signature>java.io.PrintStream.write(java.lang.String):void</signature>
+			</method>
+		</class>
+	</package>
+	<package name="java.lang.annotation">
+		<class name="Annotation" uniqueID="java.lang.annotation.Annotation">
+			<method accessibility="Public" methodKind="Member" name="annotationType" uniqueID="annotationType():java.lang.Class">
+				<signature>java.lang.annotation.Annotation.annotationType():java.lang.Class</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="equals" uniqueID="equals(java.lang.Object):boolean">
+				<signature>java.lang.annotation.Annotation.equals(java.lang.Object):boolean</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="hashCode" uniqueID="hashCode():int">
+				<signature>java.lang.annotation.Annotation.hashCode():int</signature>
+			</method>
+			<method accessibility="Public" methodKind="Member" name="toString" uniqueID="toString():java.lang.String">
+				<signature>java.lang.annotation.Annotation.toString():java.lang.String</signature>
+			</method>
+		</class>
+		<class name="RetentionPolicy" uniqueID="java.lang.annotation.RetentionPolicy">
+			<method accessibility="Protected" methodKind="Static" name="&lt;clinit&gt;" uniqueID="&lt;clinit&gt;():void">
+				<signature>java.lang.annotation.RetentionPolicy.&lt;clinit&gt;():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="valueOf" uniqueID="valueOf(java.lang.String):java.lang.annotation.RetentionPolicy">
+				<signature>java.lang.annotation.RetentionPolicy.valueOf(java.lang.String):java.lang.annotation.RetentionPolicy</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="values" uniqueID="values():java.lang.annotation.RetentionPolicy[]">
+				<signature>java.lang.annotation.RetentionPolicy.values():java.lang.annotation.RetentionPolicy[]</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.lang.String;int):void">
+				<signature>java.lang.annotation.RetentionPolicy.&lt;init&gt;(java.lang.String;int):void</signature>
+			</method>
+		</class>
+		<class name="ElementType" uniqueID="java.lang.annotation.ElementType">
+			<method accessibility="Protected" methodKind="Static" name="&lt;clinit&gt;" uniqueID="&lt;clinit&gt;():void">
+				<signature>java.lang.annotation.ElementType.&lt;clinit&gt;():void</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="valueOf" uniqueID="valueOf(java.lang.String):java.lang.annotation.ElementType">
+				<signature>java.lang.annotation.ElementType.valueOf(java.lang.String):java.lang.annotation.ElementType</signature>
+			</method>
+			<method accessibility="Public" methodKind="Static" name="values" uniqueID="values():java.lang.annotation.ElementType[]">
+				<signature>java.lang.annotation.ElementType.values():java.lang.annotation.ElementType[]</signature>
+			</method>
+			<method accessibility="Private" methodKind="Member" name="&lt;init&gt;" uniqueID="&lt;init&gt;(java.lang.String;int):void">
+				<signature>java.lang.annotation.ElementType.&lt;init&gt;(java.lang.String;int):void</signature>
+			</method>
+		</class>
+		<class name="Target" uniqueID="java.lang.annotation.Target">
+			<method accessibility="Public" methodKind="Member" name="value" uniqueID="value():java.lang.annotation.ElementType[]">
+				<signature>java.lang.annotation.Target.value():java.lang.annotation.ElementType[]</signature>
+			</method>
+		</class>
+		<class name="Retention" uniqueID="java.lang.annotation.Retention">
+			<method accessibility="Public" methodKind="Member" name="value" uniqueID="value():java.lang.annotation.RetentionPolicy">
+				<signature>java.lang.annotation.Retention.value():java.lang.annotation.RetentionPolicy</signature>
+			</method>
+		</class>
+	</package>
+</api_info>

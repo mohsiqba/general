@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentRun name="gradle-java - 5/30/17 3:04PM" version="9.0.3.2">
+	<AssessmentStats class_total="2" date="1496136849" duration="0" error_status="0" language_type="17" line_total="43" max_vdensity="0.000000" max_vkloc="0.000000" method_total="5" total_call_sites="15" total_call_sites_informational="0" total_call_sites_not_vulnerable="2" total_excluded_findings="0" total_files="3" total_findings="2" total_high_finding="0" total_high_high_finding="0" total_high_low_finding="0" total_high_med_finding="0" total_low_finding="0" total_low_high_finding="0" total_low_low_finding="0" total_low_med_finding="0" total_med_finding="0" total_med_high_finding="0" total_med_low_finding="0" total_med_med_finding="0" vdensity="0.000000" vkloc="0.000000">
+		<VulnType name="Vulnerability.Quality.TestCode" total_high_finding="0" total_low_finding="2" total_med_finding="0"/>
+	</AssessmentStats>
+	<AssessmentConfig analysis_type="2" assessment_type="1" stop_on_error="false">
+		<ScanConfig description_id="msg.scanconfig.normal.description" identifier="Normal" is_added="false" is_shared="true" name_id="msg.scanconfig.normal.name">
+		</ScanConfig>
+		<Application name="gradle-java" path="C:\eclipse_workspace\demo-java-gradle-master\gradle-java.paf"/>
+	</AssessmentConfig>
+	<SharedDataStats total_objects="19"/>
+	<StringPool>
+		<String id="1"/>
+		<String id="2" value="System.out . java.io.PrintStream.println ( greet . com.petehouston.greet.Greet.bye(&quot;Pete&quot;) )"/>
+		<String id="3" value="System.out . java.io.PrintStream.println ( greet . com.petehouston.greet.Greet.hello(&quot;Pete&quot;) )"/>
+		<String id="4" value="Vulnerability.Quality.TestCode"/>
+		<String id="5" value="com.petehouston.greet.Program.main(java.lang.String[]):void"/>
+		<String id="6" value="gradle-java"/>
+		<String id="7" value="java.io.PrintStream"/>
+		<String id="8" value="java.io.PrintStream.println"/>
+		<String id="9" value="java.io.PrintStream.println(java.lang.String):void"/>
+	</StringPool>
+	<FilePool>
+		<File id="1"/>
+		<File id="2" value="C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Greet.class"/>
+		<File id="3" value="C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Greet.java"/>
+		<File id="4" value="C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Program.class"/>
+		<File id="5" value="C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Program.java"/>
+		<File id="6" value="C:\eclipse_workspace\demo-java-gradle-master\gradle-java_frameworksCLI.wafl"/>
+	</FilePool>
+	<SitePool>
+		<Site caller="5" cn="7" cxt="3" file_id="5" id="1" language_type="2" ln="8" method="8" ord="1" sig="9"/>
+		<Site caller="5" cn="7" cxt="2" file_id="5" id="2" language_type="2" ln="9" method="8" ord="2" sig="9"/>
+	</SitePool>
+	<FindingDataPool>
+		<FindingData ao_id="461554" conf="3" id="1" project_name="6" prop_ids="3,540,583,605,612" rec_id="512033" sev="2" site_id="1" vtype="4"/>
+		<FindingData ao_id="461554" conf="3" id="2" project_name="6" prop_ids="3,540,583,605,612" rec_id="512033" sev="2" site_id="2" vtype="4"/>
+	</FindingDataPool>
+	<Assessment assessee_file="C:\eclipse_workspace\demo-java-gradle-master\gradle-java.paf" assessee_name="gradle-java" assessee_type="Application">
+		<AssessmentStats class_total="2" date="1496136849" duration="0" error_status="0" language_type="17" line_total="43" max_vdensity="0.000000" method_total="5" owner_name="gradle-java" owner_type="Application" total_call_sites="15" total_call_sites_informational="0" total_call_sites_not_vulnerable="2" vdensity="0.000000"/>
+		<AssessmentOperations>
+		</AssessmentOperations>
+		<Assessment assessee_file="C:\eclipse_workspace\demo-java-gradle-master\gradle-java.ppf" assessee_name="gradle-java" assessee_type="Project">
+			<AssessmentStats class_total="2" configuration="Configuration 1" date="1496136849" duration="12" error_status="0" language_type="17" line_total="43" max_vdensity="0.000000" method_total="5" owner_name="gradle-java" owner_type="Project" total_call_sites="15" total_call_sites_informational="0" total_call_sites_not_vulnerable="2" vdensity="0.000000"/>
+			<AssessmentOperations>
+			</AssessmentOperations>
+			<AsmntFile file_id="2">
+				<AssessmentStats class_total="0" date="0" duration="0" error_status="0" language_type="17" line_total="9" method_total="0" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
+			</AsmntFile>
+			<AsmntFile file_id="3">
+				<AssessmentStats class_total="1" date="1496136849" duration="0" error_status="0" language_type="2" line_total="14" method_total="3" total_call_sites="8" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
+			</AsmntFile>
+			<AsmntFile file_id="4">
+				<AssessmentStats class_total="0" date="0" duration="0" error_status="0" language_type="17" line_total="10" method_total="0" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
+			</AsmntFile>
+			<AsmntFile file_id="5">
+				<AssessmentStats class_total="1" date="1496136849" duration="0" error_status="0" language_type="2" line_total="10" method_total="2" total_call_sites="7" total_call_sites_informational="0" total_call_sites_not_vulnerable="2" vdensity="0.000000"/>
+				<Finding data_id="1"/>
+				<Finding data_id="2"/>
+			</AsmntFile>
+			<AsmntFile file_id="6">
+				<AssessmentStats class_total="0" date="1496136849" duration="0" error_status="0" language_type="2" line_total="0" method_total="0" total_call_sites="0" total_call_sites_informational="0" total_call_sites_not_vulnerable="0" vdensity="0.000000"/>
+			</AsmntFile>
+		</Assessment>
+	</Assessment>
+	<Messages>
+		<Message timestamp="05/30/17 15:04:09" type="AssessmentStatus">New scan started</Message>
+		<Message timestamp="05/30/17 15:04:09" type="AssessmentStatus">Scanning with Scan Configuration: Normal scan</Message>
+		<Message timestamp="05/30/17 15:04:09" type="AssessmentStatus">Scanning with cross-project analysis disabled</Message>
+		<Message timestamp="05/30/17 15:04:09" type="AssessmentStatus"></Message>
+		<Message timestamp="05/30/17 15:04:09" type="AssessmentStatus">Scanning Project gradle-java ( 1 of 1 )</Message>
+		<Message timestamp="05/30/17 15:04:09" type="AssessmentStatus">Preparing project for scan...</Message>
+		<Message timestamp="05/30/17 15:04:20" type="AssessmentStatus">Performing Framework Analysis for setting 'frameworksCLI'...</Message>
+		<Message timestamp="05/30/17 15:04:28" type="AssessmentStatus">Scanning C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Greet.class (1 of 2)</Message>
+		<Message timestamp="05/30/17 15:04:29" type="AssessmentStatus">Scanning C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Program.class (2 of 2)</Message>
+		<Message timestamp="05/30/17 15:04:30" type="Info">Framework analysis finished: C:\eclipse_workspace\demo-java-gradle-master\gradle-java_frameworksCLI.wafl</Message>
+		<Message timestamp="05/30/17 15:04:30" type="AssessmentStatus">Preparing for Vulnerability Analysis...</Message>
+		<Message timestamp="05/30/17 15:04:30" type="AssessmentStatus">Performing Vulnerability Analysis...</Message>
+		<Message timestamp="05/30/17 15:04:30" type="AssessmentStatus">Generating Findings...</Message>
+		<Message timestamp="05/30/17 15:04:30" type="AssessmentStatus">Preparing project for scan...</Message>
+		<Message timestamp="05/30/17 15:04:30" type="AssessmentStatus">Performing Pattern Analysis...</Message>
+		<Message timestamp="05/30/17 15:04:30" type="AssessmentStatus">Searching C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Greet.class (1 of 2)</Message>
+		<Message timestamp="05/30/17 15:04:30" type="AssessmentStatus">Searching C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Program.class (2 of 2)</Message>
+		<Message timestamp="05/30/17 15:04:33" type="AssessmentStatus">Scanned project gradle-java : Total files: 3 Total findings: 2 Total lines: 43 vkloc: 0.000000 v-density: 0.000000</Message>
+		<Message timestamp="05/30/17 15:04:33" type="AssessmentStatus">Scanned application gradle-java : Total files: 3 Total findings: 2 Total lines: 43 vkloc: 0.000000 v-density: 0.000000</Message>
+		<Message timestamp="05/30/17 15:04:33" type="AssessmentStatus">Scan completed: Total files: 3 Total findings: 2 Total lines: 43 vkloc: 0.000000 v-density: 0.000000</Message>
+		<Message timestamp="05/30/17 15:04:33" type="AssessmentStatus">Elapsed Time - 0 Hour(s) 0 Minute(s) 24 Second(s)</Message>
+	</Messages>
+	<MetricsFindings>
+	</MetricsFindings>
+</AssessmentRun>

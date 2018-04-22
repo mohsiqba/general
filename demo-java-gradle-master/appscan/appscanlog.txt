@@ -1,0 +1,43 @@
+>> Welcome to IBM Security AppScan Source!
+Login successful.
+New scan started
+Scanning with Scan Configuration: Normal scan
+Scanning with cross-project analysis disabled
+
+Scanning Project gradle-java ( 1 of 1 )
+Preparing project for scan...
+Performing Framework Analysis for setting 'frameworksCLI'...
+Scanning C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Greet.class (1 of 2)
+Scanning C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Program.class (2 of 2)
+Preparing for Vulnerability Analysis...
+Performing Vulnerability Analysis...
+Generating Findings...
+Preparing project for scan...
+Performing Pattern Analysis...
+Searching C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Greet.class (1 of 2)
+Searching C:\eclipse_workspace\demo-java-gradle-master\build\classes\main\com\petehouston\greet\Program.class (2 of 2)
+Scanned project gradle-java : Total files: 3 Total findings: 2 Total lines: 43 vkloc: 0.000000 v-density: 0.000000
+Scanned application gradle-java : Total files: 3 Total findings: 2 Total lines: 43 vkloc: 0.000000 v-density: 0.000000
+Scan completed: Total files: 3 Total findings: 2 Total lines: 43 vkloc: 0.000000 v-density: 0.000000
+Elapsed Time - 0 Hour(s) 0 Minute(s) 24 Second(s)
+
+	-------------------
+	Total Call Sites: 2
+	Total Definitive Security Findings with High Severity: 0
+	Total Definitive Security Findings with Medium Severity: 0
+	Total Definitive Security Findings with Low Severity: 0
+	Total Suspect Security Findings with High Severity: 0
+	Total Suspect Security Findings with Medium Severity: 0
+	Total Suspect Security Findings with Low Severity: 0
+	Total Scan Coverage Findings with High Severity: 0
+	Total Scan Coverage Findings with Medium Severity: 0
+	Total Scan Coverage Findings with Low Severity: 0
+	Total Lines: 43
+	Max V-Density: 0
+	Max V/kloc: 0 
+	V-Density: 0
+	V/kloc: 0
+
+Logged out.
+>> Exiting the IBM Security AppScan Source Command Line Interface...
+>> Exiting the IBM Security AppScan Source Command Line Interface...

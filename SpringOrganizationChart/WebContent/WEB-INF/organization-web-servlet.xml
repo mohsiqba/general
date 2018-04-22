@@ -1,0 +1,100 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.2.xsd
+        http://www.springframework.org/schema/security
+        http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+	<context:component-scan base-package="com.spring.web.controller" />
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix">
+			<value>/WEB-INF/views/jsp/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
+
+	<mvc:resources mapping="/resources/**" location="/resources/" />
+ 
+	<mvc:annotation-driven />
+	
+	<bean id="organizationController" class="com.spring.web.controller.OrganizationController">
+		<property name="organizationService" ref="organizationServiceImpl" />
+	</bean>
+	<bean id="organizationServiceImpl" class="com.spring.web.service.OrganizationServiceImpl">
+		<property name="orgDao" ref="organizationDAO" />
+	</bean>
+	<bean id="organizationDAO" class="com.spring.jdbc.dao.OrganizationDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="departmentController" class="com.spring.web.controller.DepartmentController">
+		<property name="departmentService" ref="departmentserviceImpl" />
+	</bean>
+	<bean id="departmentserviceImpl" class="com.spring.web.service.DepartmentServiceImpl">
+		<property name="deptDao" ref="departmentDAO" />
+	</bean>
+		<bean id="departmentDAO" class="com.spring.jdbc.dao.DepartmentDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="employeeController" class="com.spring.web.controller.EmployeeController">
+		<property name="employeeService" ref="employeeServiceImpl" />
+	</bean> 
+	<bean id="employeeServiceImpl" class="com.spring.web.service.EmployeeServiceImpl">
+		<property name="empDao" ref="employeeDAO" />
+	</bean>
+		<bean id="employeeDAO" class="com.spring.jdbc.dao.EmployeeDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>WEB-INF/db.properties</value>
+			</list>
+		</property>
+	</bean>
+	
+	 <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource"
+          p:basenames="resources/locale/messages"
+          p:useCodeAsDefaultMessage="true" />
+    
+<!--     Declare the Interceptor
+    <mvc:interceptors>    
+        <bean id="" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"
+              p:paramName="locale" />
+    </mvc:interceptors>
+    
+    Declare the Resolver
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver" 
+    	p:defaultLocale="en"/> -->
+	
+	<bean id="myFilter1" class="com.spring.web.filter.MyFilter1"/>
+	<bean id="myFilter2" class="com.spring.web.filter.MyFilter2"/>
+	<bean id="filterChainProxy" class="org.springframework.security.web.FilterChainProxy">
+	  <security:filter-chain-map path-type="ant">
+<!-- 	     <security:filter-chain pattern="/webServices/**" filters="
+	           securityContextPersistenceFilterWithASCFalse,
+	           basicAuthenticationFilter,
+	           exceptionTranslationFilter,
+	           filterSecurityInterceptor" /> -->
+	     <security:filter-chain pattern="/**" filters="
+	           myFilter1,
+	           myFilter2" />
+	  </security:filter-chain-map>
+	</bean>
+	
+</beans>

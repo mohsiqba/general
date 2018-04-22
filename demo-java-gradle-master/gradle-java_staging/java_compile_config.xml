@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config allow_large_classpaths="true" memory_initial="256m" memory_max="1024m" retries_max="3" stop_on_error="false">
+	<Compile base="C:\eclipse_workspace\demo-java-gradle-master\" class_path="C:\Program Files (x86)\IBM\AppScanSource\tc70\annotations-api.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\ant.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina-ant.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina-ha.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina-tribes.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\catalina.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\ecj-4.2.2.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\el-api.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\jasper-el.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\jasper.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\jsp-api.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\servlet-api.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-api.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-coyote.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-dbcp.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-i18n-es.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-i18n-fr.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-i18n-ja.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-jdbc.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-juli.jar;C:\Program Files (x86)\IBM\AppScanSource\tc70\tomcat-util.jar;..\..\Users\mohsiqba\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.13\7fcf30c25b8f4a9379b9dad0d3f487b25272c026\slf4j-api-1.7.13.jar;build\classes\main" compiler_options="-encoding ISO-8859-1 " dest="C:\eclipse_workspace\demo-java-gradle-master\gradle-java_staging" java_home="C:\Program Files (x86)\IBM\AppScanSource\JDKS\1.8" source_dir="C:\eclipse_workspace\demo-java-gradle-master\build\classes\main" source_path=".\build\classes\main">
+		<Includes>
+			<File dir="C:\eclipse_workspace\demo-java-gradle-master\build\classes\main"/>
+		</Includes>
+		<Excludes>
+		</Excludes>
+	</Compile>
+</Config>

@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd ">
+ 
+	<context:component-scan base-package="com.fiberlink.rest" />
+	
+	<bean id="myCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+        <property name="configLocation">
+            <value>WEB-INF/ehcache-mi.xml</value>
+        </property>
+    </bean>
+<bean id="cacheService" class="com.fiberlink.ehcache.EhCacheService">
+        <constructor-arg>
+            <ref bean="myCacheManager"/>
+        </constructor-arg>
+        <constructor-arg type="java.lang.String">
+            <value>MI_CACHE</value>
+        </constructor-arg>
+    </bean>
+	
+	
+</beans>

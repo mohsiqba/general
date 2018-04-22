@@ -1,0 +1,61 @@
+-------------------------------------------------------------START----------------------------------------------------------------------------------
+create table test_organization
+(
+  org_id number, 
+  org_name varchar2(30),
+  org_description varchar2(100),
+  primary key(org_id)
+);
+
+create table test_department
+(
+  dept_id number,
+  dept_name varchar2(30),
+  dept_mgr_name varchar2(30),
+  org_id number,
+  primary key(dept_id),
+  foreign key(org_id) references test_organization
+);
+
+create table test_employee
+(
+  emp_id number,
+  emp_name varchar2(30),
+  emp_doj date,
+  emp_position varchar2(30),
+  org_id number,
+  dept_id number,
+  primary key(emp_id),
+  foreign key(org_id) references test_organization,
+  foreign key(dept_id) references test_department
+);
+
+CREATE SEQUENCE test_organization_seq MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1001 NOCACHE NOORDER NOCYCLE ;
+CREATE SEQUENCE test_department_seq MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 3001 NOCACHE NOORDER NOCYCLE ;
+CREATE SEQUENCE test_employee_seq MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 5001 NOCACHE NOORDER NOCYCLE ;
+
+
+-------------------------------------------------------------END------------------------------------------------------------------------------------
+org_id,org_name,org_description
+
+dept_id,dept_name,dept_mgr_name,
+org_id
+
+emp_id,emp_name,emp_doj,emp_position,
+org_id number,
+dept_id number,
+
+drop sequence organization_seq;
+drop sequence department_seq;
+drop sequence employee_seq;
+
+
+
+select test_department_seq.nextval from dual;
+select * from test_department;
+delete from test_department;
+desc test_employee;
+
+insert into test_employee(emp_id,emp_name,emp_doj,emp_position,dept_id,org_id) values(test_employee_seq.nextval,'mohsin',sysdate,'SE',3009,1002);commit;
+select * from test_employee;
+select * from test_department;
