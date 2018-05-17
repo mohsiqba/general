@@ -3,7 +3,7 @@ __email__ ="mohsiqba@in.ibm.com"
 __status__ ="Script v1.0"
 
 ## Given Scripts accepts arguments in the following order
-#billingId[1]
+#billingId[1] Test
 #appId[2]
 #appVersion[3]
 #platformId[4]
